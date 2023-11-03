@@ -10,11 +10,11 @@ COPY . .
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Make port available to the world outside this container
+# Make port 8000 available to the world outside this container
 EXPOSE 8000
 
 # Define environment variable
 ENV NAME World
 
-# Run server.py when the container launches
-CMD ["python", "./serverUI.py"]
+# Run implementation.py when the container launches
+CMD ["python", "./implementation.py"]
