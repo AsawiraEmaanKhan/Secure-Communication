@@ -16,7 +16,7 @@ executing==2.0.0
 fonttools==4.43.1
 future==0.18.3
 idna==3.3
-ipython==8.16.1
+ipython==7.16.3
 jedi==0.19.1
 kiwisolver==1.4.5
 lxml==4.9.3
